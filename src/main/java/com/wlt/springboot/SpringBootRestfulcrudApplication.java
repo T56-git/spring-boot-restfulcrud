@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootRestfulcrudApplication {
 
     public static void main(String[] args) {
+        //测试git
         SpringApplication.run(SpringBootRestfulcrudApplication.class, args);
     }
 
