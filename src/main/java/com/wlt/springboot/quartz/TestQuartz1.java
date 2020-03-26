@@ -22,8 +22,6 @@ public class TestQuartz1 {
     }
 
 
-
-
     @Scheduled(cron="0 */1 * * * ?")
     public void task2(){
         log.info("===========task2:执行 {}" ,dateFormat.format(new Date()));
